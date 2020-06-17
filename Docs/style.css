@@ -1,0 +1,84 @@
+/* ZONAS */
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    height:100vh;
+}
+
+section, nav{
+    font-size: larger;
+    font-weight: bold;
+}
+
+header{
+    padding: 0.7% 0%;
+    background-color: #ff7300;
+}
+
+nav{
+    padding: 0%;
+    width: 20%;
+    flex: 1;
+    background-color: #ff7300;
+}
+
+/* ELEMENTOS SEGUN SU ZONA */
+section{
+    padding: 0%;
+    width: 80%;
+    overflow: hidden;
+}
+
+section article, span, input{
+    display: block;
+    overflow: hidden;
+}
+
+/* ELEMENTOS */
+h1{
+    margin: 0%;
+    padding: 0%;
+    margin-right: 3%;
+    text-align: right;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+li{
+    padding: 3%;
+}
+
+li:hover{
+    background-color: #ff6900;
+    color: #093eb4;
+}
+
+table{
+    width: max-content;
+    margin: auto;
+}
+
+td{
+    padding: 1%;
+    width: max-content;
+    text-align: right;
+}
+
+input[type="text"]{
+    padding: 1%;
+    width: 440px;
+    border-color: #093eb4;
+    border-radius: 10px;
+}
+
+input[type="text"]:focus{
+    border-color: #ff7300;
+}

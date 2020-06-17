@@ -1,0 +1,5 @@
+== RESUMEN DE CAMBIOS ULTIMO COMMIT ====================================================================================
+ - Añadido un diagrama UML bastante simple con la estructura del programa, Iván ha desarrollar la zona de Interfaz del
+   diagrama
+
+ - Añadido HTML con aspecto de la Interfaz (Sin terminar)
